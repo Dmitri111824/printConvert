@@ -1,0 +1,28 @@
+@font-face { 
+    font-family: "FranksRus-Regular";
+    src: url('/FranksRus-Regular_0.otf') format('opentype'); 
+    font-weight: normal;
+}
+
+.block {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+}
+
+.text-block {
+    display:flex; 
+    justify-content: center; 
+    width: 15cm; 
+    height: 10cm;
+}
+
+.text{
+    font-family: "FranksRus-Regular", sans-serif;
+    font-size: 20px; 
+    margin: 0px; 
+    padding: 15px;
+    letter-spacing: 0.5px;
+}
